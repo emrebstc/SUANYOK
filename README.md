@@ -6,7 +6,7 @@ Integrated OpenCV (SSD-Caffe model) for face localization and a TFLite semantic 
 
 Designed a lightweight Flask-based web streaming interface for live video visualization and image saving.
 
-Optimized performance for 32-bit embedded hardware and implemented real-time FPS monitoring and key-triggered segmentation saving.
+Optimized performance for 32-bit embedded hardware and implemented real-time monitoring and key-triggered segmentation saving.
 
 Hardware Specifications of ASUS Tinker Board S
 ----------------------------------------------
