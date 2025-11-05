@@ -67,6 +67,24 @@ Saved images format: .jpg
 Naming: segment_001.jpg, segment_002.jpg, …
 
 
+Executing the program
+---------------------
+1) sudo su
+   
+2) cd /root
+   
+3) ip a (Find IPv4 of tinkerboard)
+   
+4) for c in /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor; do echo performance > $c, done
+   
+5) python3 det_seg_gallery.py
+   
+6) Type "http://<TinkerIp>:5000 , for watch streaming
+    
+7) Type "http://<TinkerIp>:5000 , for reach gallery
+  
+8) "CTRL + C" for kill the program
+
 
 
 
