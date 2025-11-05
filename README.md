@@ -1,3 +1,13 @@
+SUMMARY
+-------
+An edge-based real-time Face Detection and Semantic Segmentation System on Tinker Board S (ARM, Debian Bookworm).
+
+Integrated OpenCV (SSD-Caffe model) for face localization and a TFLite semantic segmentation model for face/skin mask generation.
+
+Designed a lightweight Flask-based web streaming interface for live video visualization and image saving.
+
+Optimized performance for 32-bit embedded hardware and implemented real-time FPS monitoring and key-triggered segmentation saving.
+
 Hardware Specifications of ASUS Tinker Board S
 ----------------------------------------------
 CPU: Rockchip Quad-core 32Bit ARMv7 Cortex-A17, up to 1.8 GHz RK3288 processor (SoC) 
