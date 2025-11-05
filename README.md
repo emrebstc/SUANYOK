@@ -127,8 +127,8 @@ You may share your file to tinker board via SCP tool, for that:
 
 7)Activate V4L2 and graphic device permission on kernel if USB camera doesnt detected
 
-Examples
---------
+Sample outputs
+--------------
 <img width="1024" height="769" alt="3" src="https://github.com/user-attachments/assets/d77660e7-6153-4f17-9977-c01bd85bc670" />
 
 ![segment_001](https://github.com/user-attachments/assets/56cbf0cd-0f1a-432b-a178-90763e56b8ec)
