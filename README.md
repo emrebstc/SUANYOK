@@ -73,20 +73,37 @@ Executing the program
    
 2) cd /root
    
-3) ip a (Find IPv4 of tinkerboard)
+3) Find IPv4 of your tinkerboard, type : ip a
+
+4) ls /dev/video* (Find your device its name will be something like "/dev/video0-5", example: video3)
+
+5) Edit, cap = cv2.VideoCapture("/dev/video0", cv2.CAP_V4L2) on det_seg_gallery.py
    
-4) for c in /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor; do echo performance > $c, done
+6) for c in /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor; do echo performance > $c, done
    
-5) python3 det_seg_gallery.py
+7) python3 det_seg_gallery.py
    
-6) Type "http://<TinkerIp>:5000 , for watch streaming
+8) Type "http://<TinkerIp>:5000 , for watch streaming
     
-7) Type "http://<TinkerIp>:5000 , for reach gallery
+9) Type "http://<TinkerIp>:5000 , for reach gallery
   
-8) "CTRL + C" for kill the program
+10) "CTRL + C" for kill the program
 
+Additional
+----------
+You may share your file to tinker board via SCP tool, for that:
 
+1)sudo apt install openssh-client -y
 
+2)After installation execute powershell or terminal
+
+3)For send files, find your file path and just type on powershell: 
+
+4)scp "C:\Users\YOURUSERNAME\Downloads\YOURFILE.py" root@<TINKERIP>:/root
+
+5)For get files, find your file path and just type on terminal:
+
+6)scp -r root@<TINKERIP>:/root/YOURFILE.py C:\Users\YOURUSERNAME\Downloads
 
 
 
