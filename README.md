@@ -104,8 +104,10 @@ Executing the program
 8) Type "http://"YOUR_TINKERS_IP":5000 on browser for watch streaming
     
 9) Type "http://"YOUR_TINKERS_IP":5000 on browser for reach segmentation gallery
+
+10)Press 'S' on Tinkerboard when detects face. It performs semantic segmentation of the ROI region and automatically saves it to the /root/segments folder.
   
-10) "CTRL + C" for kill the program
+11) "CTRL + C" for kill the program
 
 Additional
 ----------
