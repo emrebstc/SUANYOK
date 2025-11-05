@@ -93,9 +93,9 @@ Executing the program
    
 7) python3 det_seg_gallery.py
    
-8) Type "http://<TinkerIp>:5000 , for watch streaming
+8) Type "http://"YOUR_TINKERS_IP":5000 on browser for watch streaming
     
-9) Type "http://<TinkerIp>:5000 , for reach gallery
+9) Type "http://"YOUR_TINKERS_IP":5000 on browser for reach segmentation gallery
   
 10) "CTRL + C" for kill the program
 
@@ -114,6 +114,8 @@ You may share your file to tinker board via SCP tool, for that:
 5)For get files, find your file path and just type on terminal:
 
 6)scp -r root@<TINKERIP>:/root/YOURFILE.py C:\Users\YOURUSERNAME\Downloads
+
+7)Activate V4L2 and graphic device permission on kernel if USB camera doesnt detected
 
 Examples
 --------
