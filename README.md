@@ -29,6 +29,12 @@ Numpy Version: 1.24.2
 
 OpenCV Version: 4.6.0 (headless)
 
+Model	Type	Path	Description
+-----------------------------
+res10_300x300_ssd_iter_140000.caffemodel  path: /root/
+deploy.prototxt , path : /root/
+selfie_multiclass_256x256.tflite , path : /root/
+
 
 Devices
 -------
@@ -54,17 +60,11 @@ Filesystem
 ----------
 Segmented image save directory: /root/segments
 
-Auto-created if not exists
-
 Saved images format: .jpg
 
 Naming: segment_001.jpg, segment_002.jpg, …
 
 
-Model	Type	Path	Description
------------------------------
-res10_300x300_ssd_iter_140000.caffemodel	Detection	/root/res10_300x300_ssd_iter_140000.caffemodel	SSD Face Detection (OpenCV, 32-bit compatible)
-deploy.prototxt	Detection config	/root/deploy.prototxt	Caffe prototxt config for SSD
 
 
 
