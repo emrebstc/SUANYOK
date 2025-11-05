@@ -10,6 +10,9 @@ Optimized performance for 32-bit embedded hardware and implemented real-time mon
 
 Hardware Specifications of ASUS Tinker Board S
 ----------------------------------------------
+![Y2657193-01](https://github.com/user-attachments/assets/adfa1d30-2cc9-4f79-9123-219b78394a36)
+
+
 CPU: Rockchip Quad-core 32Bit ARMv7 Cortex-A17, up to 1.8 GHz RK3288 processor (SoC) 
 
 Memory: 2GB Dual Channel DDR3 
@@ -24,6 +27,9 @@ USB Ports: 4 x USB 2.0
 Configuration
 -------------
 OS : Armbian Bookworm 25.8.2 (headless, no GUI)
+
+<img width="1608" height="883" alt="r" src="https://github.com/user-attachments/assets/bc8c457c-b622-4bf8-9f8b-618cb60ec08c" />
+
 
 Download Link: https://www.armbian.com/tinkerboard/
 
