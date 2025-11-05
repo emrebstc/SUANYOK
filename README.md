@@ -117,8 +117,3 @@ Examples
 <img width="1028" height="774" alt="2" src="https://github.com/user-attachments/assets/3f32b4f7-7e31-43c3-ae78-7d04dafeb9ba" />
 
 
-![segment_041](https://github.com/user-attachments/assets/6af25c27-830c-492e-8ef6-6996e92464ed)
-
-![segment_047](https://github.com/user-attachments/assets/84c84cf2-4476-46b1-8ae0-a0d6d53f84a0)
-
-
